@@ -91,6 +91,7 @@ do {
       break;
 
     default:
+        alert(`Opción ${opcion} invalida, vuelva a intentarlo`);
       break;
   }
 } while (opcion !== 4);
